@@ -1,7 +1,7 @@
 # Remote Backend 
 terraform {
   cloud {
-    organization = ["fojiglobal"]
+    organization = "fojiglobal"
 
     workspaces {
       name = "terraform-test-gha"
